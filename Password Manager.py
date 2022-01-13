@@ -27,7 +27,7 @@ def view():     #fucntion to view the passwords
                   fer.decrypt(passw.encode()).decode())
 
 
-def add():
+def add():  # fucntion to add user name and passwords.
     name = input('Account Name: ')
     pwd = input("Password: ")
 
