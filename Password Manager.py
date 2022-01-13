@@ -18,7 +18,7 @@ key = load_key()
 fer = Fernet(key)
 
 
-def view():
+def view():     #fucntion to view the passwords 
     with open('passwords.txt', 'r') as f:
         for line in f.readlines():
             data = line.rstrip()
